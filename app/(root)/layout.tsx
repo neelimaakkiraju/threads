@@ -26,7 +26,7 @@ export default function RootLayout({
         
       <Topbar/>
         
-      <main>
+      <main className='flex flex-row'>
         <LeftSidebar/>
         <section className='main-container'>
 <div className='w-full max-w-4xl'>
@@ -35,6 +35,7 @@ export default function RootLayout({
 </div>
         </section>
         <RightSidebar/>
+      
       </main>
         <Bottombar/>
         </body>
